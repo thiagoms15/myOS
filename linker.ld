@@ -4,7 +4,7 @@ OUTPUT_ARCH(i386:i386)
 
 SECTIONS
 {
-  . = 0x0100000;
+  . = 0x0100000; /* Memory RAM addr*/
 
   .text :
   {
